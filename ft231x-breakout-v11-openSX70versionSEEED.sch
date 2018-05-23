@@ -1760,27 +1760,6 @@ SMD type&lt;br&gt;</description>
 </library>
 <library name="Seeed-Capacitor-2016">
 <packages>
-<package name="C0402">
-<description>&lt;b&gt;0402&lt;b&gt;&lt;p&gt;</description>
-<smd name="1" x="0" y="0.4625" dx="0.5" dy="0.5" layer="1" roundness="50" rot="R270"/>
-<smd name="2" x="0" y="-0.4625" dx="0.5" dy="0.5" layer="1" roundness="50" rot="R270"/>
-<text x="0.635" y="1.27" size="0.889" layer="25" ratio="11" rot="R270">&gt;NAME</text>
-<text x="-1.524" y="1.397" size="0.635" layer="27" font="vector" ratio="10" rot="R270">&gt;VALUE</text>
-<polygon width="0.0254" layer="51">
-<vertex x="0.254" y="0.508"/>
-<vertex x="0.254" y="-0.508"/>
-<vertex x="-0.254" y="-0.508"/>
-<vertex x="-0.254" y="0.508"/>
-</polygon>
-<wire x1="0.3945" y1="-0.712" x2="0.2675" y2="-0.839" width="0.0762" layer="21" curve="-90"/>
-<wire x1="0.2675" y1="-0.839" x2="-0.2675" y2="-0.839" width="0.0762" layer="21"/>
-<wire x1="-0.2675" y1="-0.839" x2="-0.3945" y2="-0.712" width="0.0762" layer="21" curve="-90"/>
-<wire x1="-0.3945" y1="-0.712" x2="-0.3945" y2="0.712" width="0.0762" layer="21"/>
-<wire x1="-0.3945" y1="0.712" x2="-0.2675" y2="0.839" width="0.0762" layer="21" curve="-90"/>
-<wire x1="-0.2675" y1="0.839" x2="0.2675" y2="0.839" width="0.0762" layer="21"/>
-<wire x1="0.2675" y1="0.839" x2="0.3945" y2="0.712" width="0.0762" layer="21" curve="-90"/>
-<wire x1="0.3945" y1="0.712" x2="0.3945" y2="-0.712" width="0.0762" layer="21"/>
-</package>
 <package name="AVX-B">
 <wire x1="-2.2225" y1="1.397" x2="2.2225" y2="1.397" width="0.1016" layer="21"/>
 <wire x1="2.2225" y1="1.397" x2="2.2225" y2="-1.397" width="0.1016" layer="21"/>
@@ -1797,18 +1776,6 @@ SMD type&lt;br&gt;</description>
 </package>
 </packages>
 <symbols>
-<symbol name="C">
-<wire x1="-0.635" y1="-1.016" x2="-0.635" y2="0" width="0.254" layer="94"/>
-<wire x1="-0.635" y1="0" x2="-0.635" y2="1.016" width="0.254" layer="94"/>
-<wire x1="0.635" y1="1.016" x2="0.635" y2="0" width="0.254" layer="94"/>
-<wire x1="0.635" y1="0" x2="0.635" y2="-1.016" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-0.635" y2="0" width="0.1524" layer="94"/>
-<wire x1="0.635" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
-<text x="-3.81" y="1.27" size="1.27" layer="95" ratio="10">&gt;NAME</text>
-<text x="-3.81" y="-2.54" size="1.27" layer="96" ratio="10">&gt;VALUE</text>
-<pin name="1" x="-3.81" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<pin name="2" x="3.81" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-</symbol>
 <symbol name="CAP-POLAR">
 <wire x1="-1.27" y1="2.54" x2="-1.27" y2="-2.54" width="0.508" layer="94"/>
 <wire x1="1.27" y1="2.54" x2="1.27" y2="-2.54" width="0.508" layer="94" curve="47.924978"/>
@@ -1822,26 +1789,6 @@ SMD type&lt;br&gt;</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CERAMIC-47PF-50V-5%-NP0(0402)" prefix="C" uservalue="yes">
-<description>302010007</description>
-<gates>
-<gate name="G$1" symbol="C" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="C0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MPN" value="CC0402JRNPO9BN470" constant="no"/>
-<attribute name="VALUE" value="47PF" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="TANTALUM-SMD-10UF-16V-10%(AVX-B)" prefix="C" uservalue="yes">
 <description>302020019</description>
 <gates>
@@ -2010,6 +1957,58 @@ SMD type&lt;br&gt;</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="Common-Parts-Library-Eagle">
+<packages>
+<package name="CC0603KRX7R9BB473_CAPC1608X90">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
+<wire x1="-1.673" y1="0.783" x2="1.673" y2="0.783" width="0.0508" layer="39"/>
+<wire x1="1.673" y1="0.783" x2="1.673" y2="-0.783" width="0.0508" layer="39"/>
+<wire x1="1.673" y1="-0.783" x2="-1.673" y2="-0.783" width="0.0508" layer="39"/>
+<wire x1="-1.673" y1="-0.783" x2="-1.673" y2="0.783" width="0.0508" layer="39"/>
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<text x="-1.735" y="0.935" size="0.6" layer="25">&gt;NAME</text>
+<text x="-1.735" y="-1.505" size="0.6" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<wire x1="-0.15" y1="0.45" x2="0.15" y2="0.45" width="0.127" layer="21"/>
+<wire x1="-0.15" y1="-0.45" x2="0.15" y2="-0.45" width="0.127" layer="21"/>
+<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="CC0603KRX7R9BB473">
+<rectangle x1="-1.524" y1="-0.254" x2="2.54" y2="0.254" layer="94" rot="R90"/>
+<rectangle x1="-2.54" y1="-0.254" x2="1.524" y2="0.254" layer="94" rot="R90"/>
+<text x="-4.064" y="2.286" size="1.778" layer="95">&gt;NAME</text>
+<text x="-4.064" y="-4.064" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="5.588" y="0" visible="off" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="-5.588" y="0" visible="off" length="middle" direction="pas" swaplevel="1"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CC0603KRX7R9BB473" prefix="C">
+<description>0603 47 nF 50 V ±10 % Tolerance X7R SMT Multilayer Ceramic Capacitor</description>
+<gates>
+<gate name="G$1" symbol="CC0603KRX7R9BB473" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CC0603KRX7R9BB473_CAPC1608X90">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="YAGEO"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2023,8 +2022,8 @@ SMD type&lt;br&gt;</description>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
 <part name="U1" library="SparkFun-DigitalIC" deviceset="FT231X" device="S" value="FTS31XS-U"/>
 <part name="C2" library="Seeed-Capacitor" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" value="100nf"/>
-<part name="C3" library="Seeed-Capacitor-2016" deviceset="CERAMIC-47PF-50V-5%-NP0(0402)" device="" value="47PF"/>
-<part name="C4" library="Seeed-Capacitor-2016" deviceset="CERAMIC-47PF-50V-5%-NP0(0402)" device="" value="47PF"/>
+<part name="C3" library="Common-Parts-Library-Eagle" deviceset="CC0603KRX7R9BB473" device="" value="47PF"/>
+<part name="C4" library="Common-Parts-Library-Eagle" deviceset="CC0603KRX7R9BB473" device="" value="47PF"/>
 <part name="R1" library="SparkFun-Resistors" deviceset="27OHM1/10W1%(0603)" device="0603-RES" value="27"/>
 <part name="R2" library="SparkFun-Resistors" deviceset="27OHM1/10W1%(0603)" device="0603-RES" value="27"/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -2182,7 +2181,7 @@ SMD type&lt;br&gt;</description>
 <pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="134.62" x2="38.1" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="134.62" x2="38.1" y2="130.81" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="134.62" x2="38.1" y2="121.412" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="134.62" x2="22.86" y2="134.62" width="0.1524" layer="91"/>
 <junction x="38.1" y="134.62"/>
 <pinref part="JP1" gate="G$1" pin="D+"/>
@@ -2192,7 +2191,7 @@ SMD type&lt;br&gt;</description>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="33.02" y1="137.16" x2="33.02" y2="125.73" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="137.16" x2="33.02" y2="116.332" width="0.1524" layer="91"/>
 <junction x="33.02" y="137.16"/>
 <pinref part="JP1" gate="G$1" pin="D-"/>
 <wire x1="33.02" y1="137.16" x2="22.86" y2="137.16" width="0.1524" layer="91"/>
@@ -2202,12 +2201,12 @@ SMD type&lt;br&gt;</description>
 <segment>
 <pinref part="C4" gate="G$1" pin="2"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="33.02" y1="114.3" x2="33.02" y2="118.11" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="114.3" x2="33.02" y2="127.508" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="2"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="38.1" y1="114.3" x2="38.1" y2="123.19" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="114.3" x2="38.1" y2="132.588" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="U$1" pin="GND@16"/>
