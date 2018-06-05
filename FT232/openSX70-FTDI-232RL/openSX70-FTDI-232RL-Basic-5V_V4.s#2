@@ -1831,9 +1831,9 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 </class>
 </classes>
 <parts>
-<part name="C52" library="openSX70_PATHFINDER_V5.5-SEEED_20180522" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" value="100nf"/>
+<part name="C2" library="openSX70_PATHFINDER_V5.5-SEEED_20180522" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" value="100nf"/>
 <part name="C5" library="Seeed-Capacitor-2016" deviceset="TANTALUM-SMD-10UF-16V-10%(AVX-A)" device="" value="10uf"/>
-<part name="C51" library="openSX70_PATHFINDER_V5.5-SEEED_20180522" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" value="100nf"/>
+<part name="C1" library="openSX70_PATHFINDER_V5.5-SEEED_20180522" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" value="100nf"/>
 <part name="GND1" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND2" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+1" library="SparkFun" deviceset="VCC" device="" value="3.3V"/>
@@ -1855,12 +1855,6 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <part name="D1" library="Seeed-LED" deviceset="SMD-LED-CLEAR-GREEN(0603)" device="" value="GREEN-0603"/>
 <part name="D2" library="Seeed-LED-2016" deviceset="SMD-LED-CLEAR-YELLOW(0603)" device="" value="YELLOW-0603"/>
 <part name="IC1" library="ftdichip" library_urn="urn:adsk.eagle:library:231" deviceset="FT232R" device="Q" package3d_urn="urn:adsk.eagle:package:14014/1"/>
-<part name="USB2" library="Seeed-Connector -2016" deviceset="MICRO-USB-SMD-B-(10118193-0001LF)" device="" value="10118193-0001LF"/>
-<part name="P+2" library="SparkFun" deviceset="VCC" device="" value="3.3V"/>
-<part name="U$2" library="SparkFun" deviceset="5V" device=""/>
-<part name="C1" library="openSX70_PATHFINDER_V5.5-SEEED_20180522" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" value="100nf"/>
-<part name="C3" library="Seeed-Capacitor-2016" deviceset="TANTALUM-SMD-10UF-16V-10%(AVX-A)" device="" value="10uf"/>
-<part name="C2" library="openSX70_PATHFINDER_V5.5-SEEED_20180522" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" value="100nf"/>
 </parts>
 <sheets>
 <sheet>
@@ -1871,9 +1865,9 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <text x="238.76" y="7.62" size="2.54" layer="97">v24</text>
 </plain>
 <instances>
-<instance part="C52" gate="G$1" x="66.04" y="109.22" rot="R270"/>
+<instance part="C2" gate="G$1" x="66.04" y="109.22" rot="R270"/>
 <instance part="C5" gate="G$1" x="76.2" y="111.76" rot="R270"/>
-<instance part="C51" gate="G$1" x="86.36" y="109.22" rot="R270"/>
+<instance part="C1" gate="G$1" x="86.36" y="109.22" rot="R270"/>
 <instance part="GND1" gate="1" x="86.36" y="101.6"/>
 <instance part="GND2" gate="1" x="106.68" y="86.36"/>
 <instance part="P+1" gate="1" x="86.36" y="132.08"/>
@@ -1896,12 +1890,6 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <instance part="D1" gate="G$1" x="165.1" y="106.68" rot="R270"/>
 <instance part="D2" gate="G$1" x="154.94" y="106.68" rot="R270"/>
 <instance part="IC1" gate="1" x="91.44" y="53.34"/>
-<instance part="USB2" gate="G$1" x="22.86" y="73.66"/>
-<instance part="P+2" gate="1" x="63.5" y="50.8"/>
-<instance part="U$2" gate="G$1" x="68.58" y="86.36"/>
-<instance part="C1" gate="G$1" x="55.88" y="48.26"/>
-<instance part="C3" gate="G$1" x="53.34" y="86.36" rot="R90"/>
-<instance part="C2" gate="G$1" x="43.18" y="86.36" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -1910,7 +1898,7 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <segment>
 <wire x1="86.36" y1="105.41" x2="86.36" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<pinref part="C51" gate="G$1" pin="2"/>
+<pinref part="C1" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND18"/>
@@ -1934,7 +1922,7 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 </segment>
 <segment>
 <wire x1="66.04" y1="105.41" x2="66.04" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="C52" gate="G$1" pin="2"/>
+<pinref part="C2" gate="G$1" pin="2"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -1970,57 +1958,6 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <wire x1="220.98" y1="104.14" x2="205.74" y2="104.14" width="0.1524" layer="91"/>
 <label x="208.28" y="104.14" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="IC1" gate="1" pin="GND"/>
-<pinref part="IC1" gate="1" pin="GND@1"/>
-<wire x1="106.68" y1="33.02" x2="106.68" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="1" pin="GND@2"/>
-<wire x1="106.68" y1="27.94" x2="106.68" y2="30.48" width="0.1524" layer="91"/>
-<junction x="106.68" y="30.48"/>
-<wire x1="106.68" y1="30.48" x2="114.3" y2="30.48" width="0.1524" layer="91"/>
-<label x="114.3" y="30.48" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="1" pin="GND@A"/>
-<wire x1="78.74" y1="35.56" x2="66.04" y2="35.56" width="0.1524" layer="91"/>
-<label x="66.04" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="USB2" gate="G$1" pin="GND@1"/>
-<pinref part="USB2" gate="G$1" pin="GND@2"/>
-<wire x1="10.16" y1="77.47" x2="10.16" y2="74.93" width="0.1524" layer="91"/>
-<pinref part="USB2" gate="G$1" pin="GND@3"/>
-<wire x1="10.16" y1="74.93" x2="10.16" y2="72.39" width="0.1524" layer="91"/>
-<junction x="10.16" y="74.93"/>
-<wire x1="10.16" y1="71.12" x2="10.16" y2="72.39" width="0.1524" layer="91"/>
-<junction x="10.16" y="72.39"/>
-<pinref part="USB2" gate="G$1" pin="GND@4"/>
-<wire x1="10.16" y1="72.39" x2="10.16" y2="69.85" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="69.85" x2="10.16" y2="63.5" width="0.1524" layer="91"/>
-<junction x="10.16" y="69.85"/>
-<wire x1="10.16" y1="63.5" x2="38.1" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="63.5" x2="38.1" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="USB2" gate="G$1" pin="GND@5"/>
-<wire x1="38.1" y1="68.58" x2="36.83" y2="68.58" width="0.1524" layer="91"/>
-<junction x="38.1" y="68.58"/>
-<wire x1="38.1" y1="68.58" x2="43.18" y2="68.58" width="0.1524" layer="91"/>
-<label x="43.18" y="68.58" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="52.07" y1="48.26" x2="43.18" y2="48.26" width="0.1524" layer="91"/>
-<label x="43.18" y="48.26" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="C3" gate="G$1" pin="-"/>
-<wire x1="53.34" y1="90.17" x2="53.34" y2="91.44" width="0.1524" layer="91"/>
-<label x="53.34" y="91.44" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
-<pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="43.18" y1="90.17" x2="43.18" y2="91.44" width="0.1524" layer="91"/>
-<label x="43.18" y="91.44" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
 </net>
 <net name="USB_D+" class="0">
 <segment>
@@ -2042,12 +1979,6 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <wire x1="220.98" y1="106.68" x2="205.74" y2="106.68" width="0.1524" layer="91"/>
 <label x="205.74" y="106.68" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="IC1" gate="1" pin="!CTS"/>
-<wire x1="106.68" y1="68.58" x2="116.84" y2="68.58" width="0.1524" layer="91" locked="yes"/>
-<label x="129.54" y="68.58" size="1.778" layer="95" xref="yes"/>
-<wire x1="129.54" y1="68.58" x2="116.84" y2="68.58" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="DTR" class="0">
 <segment>
@@ -2060,11 +1991,6 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <wire x1="220.98" y1="116.84" x2="208.28" y2="116.84" width="0.1524" layer="91"/>
 <label x="208.28" y="116.84" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="IC1" gate="1" pin="!DTR"/>
-<wire x1="106.68" y1="66.04" x2="116.84" y2="66.04" width="0.1524" layer="91"/>
-<label x="116.84" y="66.04" size="1.778" layer="95" xref="yes"/>
-</segment>
 </net>
 <net name="3.3V" class="1">
 <segment>
@@ -2075,7 +2001,7 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <label x="99.06" y="116.84" size="1.778" layer="95"/>
 <pinref part="P+1" gate="1" pin="VCC"/>
 <pinref part="U1" gate="G$1" pin="3V3OUT"/>
-<pinref part="C51" gate="G$1" pin="1"/>
+<pinref part="C1" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="185.42" y1="114.3" x2="185.42" y2="116.84" width="0.1524" layer="91"/>
@@ -2127,11 +2053,6 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <wire x1="220.98" y1="111.76" x2="208.28" y2="111.76" width="0.1524" layer="91"/>
 <label x="208.28" y="111.76" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="IC1" gate="1" pin="TXD"/>
-<label x="129.54" y="76.2" size="1.778" layer="95" xref="yes"/>
-<wire x1="106.68" y1="76.2" x2="129.54" y2="76.2" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="RXI" class="0">
 <segment>
@@ -2143,11 +2064,6 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <pinref part="J1" gate="G$1" pin="2"/>
 <wire x1="220.98" y1="114.3" x2="208.28" y2="114.3" width="0.1524" layer="91"/>
 <label x="208.28" y="114.3" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="1" pin="RXD"/>
-<wire x1="106.68" y1="73.66" x2="116.84" y2="73.66" width="0.1524" layer="91"/>
-<label x="116.84" y="73.66" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="POWER" class="0">
@@ -2164,11 +2080,6 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <wire x1="203.2" y1="109.22" x2="205.74" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="109.22" x2="205.74" y2="109.22" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="IC1" gate="1" pin="VCCIO"/>
-<wire x1="78.74" y1="73.66" x2="60.96" y2="73.66" width="0.1524" layer="91"/>
-<label x="60.96" y="73.66" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
 </net>
 <net name="5V" class="0">
 <segment>
@@ -2184,7 +2095,7 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <label x="99.06" y="119.38" size="1.778" layer="95"/>
 <pinref part="U1" gate="G$1" pin="VCC"/>
 <pinref part="C5" gate="G$1" pin="+"/>
-<pinref part="C52" gate="G$1" pin="1"/>
+<pinref part="C2" gate="G$1" pin="1"/>
 <pinref part="U$3" gate="G$1" pin="5V"/>
 <pinref part="USB1" gate="G$1" pin="VCC"/>
 <wire x1="41.91" y1="127" x2="40.64" y2="127" width="0.1524" layer="91"/>
@@ -2192,7 +2103,6 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <wire x1="41.91" y1="129.54" x2="66.04" y2="129.54" width="0.1524" layer="91"/>
 <junction x="41.91" y="127"/>
 <junction x="66.04" y="129.54"/>
-<wire x1="93.98" y1="132.08" x2="93.98" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="154.94" y1="127" x2="154.94" y2="123.19" width="0.1524" layer="91"/>
@@ -2210,25 +2120,6 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <label x="177.8" y="101.6" size="1.778" layer="95"/>
 <pinref part="SJ2" gate="G$1" pin="1"/>
 </segment>
-<segment>
-<pinref part="USB2" gate="G$1" pin="VCC"/>
-<wire x1="36.83" y1="78.74" x2="43.18" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="5V"/>
-<wire x1="43.18" y1="78.74" x2="53.34" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="78.74" x2="68.58" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="78.74" x2="68.58" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="1" pin="VCC"/>
-<wire x1="78.74" y1="76.2" x2="76.2" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="76.2" x2="76.2" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="78.74" x2="68.58" y2="78.74" width="0.1524" layer="91"/>
-<junction x="68.58" y="78.74"/>
-<pinref part="C3" gate="G$1" pin="+"/>
-<wire x1="53.34" y1="78.74" x2="53.34" y2="82.55" width="0.1524" layer="91"/>
-<junction x="53.34" y="78.74"/>
-<pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="43.18" y1="82.55" x2="43.18" y2="78.74" width="0.1524" layer="91"/>
-<junction x="43.18" y="78.74"/>
-</segment>
 </net>
 <net name="N$3" class="0">
 <segment>
@@ -2243,39 +2134,6 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 <segment>
 <pinref part="U1" gate="G$1" pin="GND7"/>
 <wire x1="106.68" y1="96.52" x2="109.22" y2="96.52" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="VCC" class="0">
-<segment>
-<pinref part="P+2" gate="1" pin="VCC"/>
-<pinref part="IC1" gate="1" pin="3V3OUT"/>
-<wire x1="63.5" y1="50.8" x2="63.5" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="48.26" x2="66.04" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="66.04" y1="48.26" x2="78.74" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="59.69" y1="48.26" x2="63.5" y2="48.26" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="USB2" gate="G$1" pin="DM"/>
-<wire x1="36.83" y1="76.2" x2="43.18" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="76.2" x2="43.18" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="71.12" x2="71.12" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="71.12" x2="71.12" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="1" pin="USBDM"/>
-<wire x1="71.12" y1="40.64" x2="78.74" y2="40.64" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="IC1" gate="1" pin="USBDP"/>
-<wire x1="78.74" y1="43.18" x2="73.66" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="43.18" x2="73.66" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="63.5" x2="40.64" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="63.5" x2="40.64" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="USB2" gate="G$1" pin="DP"/>
-<wire x1="40.64" y1="73.66" x2="36.83" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -2298,10 +2156,6 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
-</note>
-<note version="8.5" severity="warning">
-Since Version 8.5, EAGLE supports locking for holes, vias, wires and polygons. 
-The locking property on all objects of these types will not be understood in this version. 
 </note>
 </compatibility>
 </eagle>
