@@ -1,0 +1,22 @@
+Partlist
+
+Exported from openSX70-FTDI-232RL-Basic-5V.brd at 24/07/2018 1:42
+
+EAGLE Version 9.1.0 Copyright (c) 1988-2018 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value           Package                  Library                                 Position (mm)         Orientation
+
+C2       100nf           C0603                    openSX70_PATHFINDER_V5.5-SEEED_20180522 (14.478 15.621)       R0
+C5       10uf            AVX-A                    Seeed-Capacitor-2016                    (15.494 4.953)        R270
+D1       GREEN-0603      LED-0603                 Seeed-LED                               (20.955 15.875)       R0
+D2       YELLOW-0603     LED-0603                 Seeed-LED-2016                          (20.828 1.651)        R0
+J1       687106183722    687106183722             openSX70_PATHFINDER_V5.5-SEEED_20180522 (-2.54 8.89)          R270
+JP3      FIDUCIAL1X2     FIDUCIAL-1X2             SparkFun                                (-3.556 1.2446)       R0
+JP5      FIDUCIAL1X2     FIDUCIAL-1X2             SparkFun                                (1.6764 2.3876)       MR0
+R1       1K              R0603                    openSX70_PATHFINDER_V5.5-SEEED_20180522 (11.176 2.794)        R270
+R2       1K              R0603                    openSX70_PATHFINDER_V5.5-SEEED_20180522 (15.113 11.684)       R0
+S1                       SWITCH_SPST_SMD_A        SparkFun-Switches                       (-3.675 9.06)         MR270
+U1       FT232RLSSOP     SSOP28DB                 SparkFun                                (7.62 8.636)          R0
+USB1     10118193-0001LF MICRO-USB5+6P-SMD-0.65-B Seeed-Connector -2016                   (17.78 8.89)          R90
