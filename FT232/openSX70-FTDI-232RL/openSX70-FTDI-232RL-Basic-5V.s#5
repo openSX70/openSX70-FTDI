@@ -1563,8 +1563,8 @@ Datasheet</description>
 </segment>
 <segment>
 <pinref part="S1" gate="1" pin="O"/>
-<wire x1="185.42" y1="106.68" x2="185.42" y2="93.98" width="0.1524" layer="91"/>
-<label x="190.5" y="96.52" size="1.778" layer="95"/>
+<wire x1="185.42" y1="106.68" x2="185.42" y2="99.06" width="0.1524" layer="91"/>
+<label x="185.42" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$3" class="0">

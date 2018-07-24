@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.1">
+<eagle version="9.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1266,7 +1266,7 @@ Datasheet</description>
 </classes>
 <parts>
 <part name="C2" library="openSX70_PATHFINDER_V5.5-SEEED_20180522" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" value="100nf"/>
-<part name="C5" library="Seeed-Capacitor-2016" deviceset="TANTALUM-SMD-10UF-16V-10%(AVX-A)" device="" value="10uf"/>
+<part name="C1" library="Seeed-Capacitor-2016" deviceset="TANTALUM-SMD-10UF-16V-10%(AVX-A)" device="" value="10uf"/>
 <part name="GND2" library="SparkFun" deviceset="GND" device=""/>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
 <part name="U1" library="SparkFun" deviceset="FT232RL" device="SSOP"/>
@@ -1294,7 +1294,7 @@ Datasheet</description>
 </plain>
 <instances>
 <instance part="C2" gate="G$1" x="66.04" y="109.22" rot="R270"/>
-<instance part="C5" gate="G$1" x="76.2" y="111.76" rot="R270"/>
+<instance part="C1" gate="G$1" x="76.2" y="111.76" rot="R270"/>
 <instance part="GND2" gate="1" x="106.68" y="86.36"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="147.32" y="0"/>
@@ -1348,7 +1348,7 @@ Datasheet</description>
 </segment>
 <segment>
 <wire x1="76.2" y1="104.14" x2="76.2" y2="107.95" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="-"/>
+<pinref part="C1" gate="G$1" pin="-"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -1479,7 +1479,7 @@ Datasheet</description>
 <wire x1="93.98" y1="132.08" x2="93.98" y2="129.54" width="0.1524" layer="91"/>
 <junction x="76.2" y="129.54"/>
 <junction x="93.98" y="129.54"/>
-<pinref part="C5" gate="G$1" pin="+"/>
+<pinref part="C1" gate="G$1" pin="+"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <pinref part="U$3" gate="G$1" pin="5V"/>
 <pinref part="USB1" gate="G$1" pin="VCC"/>
@@ -1504,6 +1504,17 @@ Datasheet</description>
 <wire x1="185.42" y1="106.68" x2="185.42" y2="99.06" width="0.1524" layer="91"/>
 <label x="185.42" y="101.6" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="93.98" y1="119.38" x2="93.98" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="VCC"/>
+<wire x1="109.22" y1="119.38" x2="93.98" y2="119.38" width="0.1524" layer="91"/>
+<junction x="93.98" y="119.38"/>
+<pinref part="U1" gate="G$1" pin="VCCIO"/>
+<wire x1="109.22" y1="114.3" x2="93.98" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="114.3" x2="93.98" y2="119.38" width="0.1524" layer="91"/>
+<label x="101.6" y="116.84" size="1.778" layer="95"/>
+<label x="101.6" y="111.76" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$3" class="0">
 <segment>
@@ -1514,22 +1525,12 @@ Datasheet</description>
 <wire x1="53.34" y1="124.46" x2="41.91" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$4" class="0">
-<segment>
-<wire x1="93.98" y1="119.38" x2="93.98" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="VCC"/>
-<wire x1="109.22" y1="119.38" x2="93.98" y2="119.38" width="0.1524" layer="91"/>
-<junction x="93.98" y="119.38"/>
-<pinref part="U1" gate="G$1" pin="VCCIO"/>
-<wire x1="109.22" y1="114.3" x2="93.98" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="114.3" x2="93.98" y2="119.38" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$5" class="0">
+<net name="5V-J1" class="0">
 <segment>
 <pinref part="S1" gate="1" pin="P"/>
 <pinref part="J1" gate="G$1" pin="4"/>
 <wire x1="193.04" y1="109.22" x2="220.98" y2="109.22" width="0.1524" layer="91"/>
+<label x="198.12" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
