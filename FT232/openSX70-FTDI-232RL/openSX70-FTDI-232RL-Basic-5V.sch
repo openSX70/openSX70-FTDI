@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.0">
+<eagle version="9.0.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1471,16 +1471,11 @@ Datasheet</description>
 </net>
 <net name="POWER" class="0">
 <segment>
-<wire x1="101.6" y1="114.3" x2="109.22" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="VCCIO"/>
-<label x="101.6" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<wire x1="198.12" y1="109.22" x2="210.82" y2="109.22" width="0.1524" layer="91"/>
-<label x="195.58" y="111.76" size="1.778" layer="95"/>
+<wire x1="198.12" y1="109.22" x2="205.74" y2="109.22" width="0.1524" layer="91"/>
+<label x="193.04" y="111.76" size="1.778" layer="95"/>
 <pinref part="J1" gate="G$1" pin="4"/>
 <wire x1="210.82" y1="109.22" x2="205.74" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="109.22" x2="205.74" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="109.22" x2="210.82" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="S1" gate="1" pin="P"/>
 <wire x1="193.04" y1="109.22" x2="220.98" y2="109.22" width="0.1524" layer="91"/>
 <junction x="220.98" y="109.22"/>
@@ -1491,14 +1486,11 @@ Datasheet</description>
 <wire x1="66.04" y1="129.54" x2="76.2" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="129.54" x2="93.98" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="129.54" x2="93.98" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="119.38" x2="109.22" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="115.57" x2="76.2" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="113.03" x2="66.04" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="132.08" x2="93.98" y2="129.54" width="0.1524" layer="91"/>
 <junction x="76.2" y="129.54"/>
 <junction x="93.98" y="129.54"/>
-<label x="99.06" y="119.38" size="1.778" layer="95"/>
-<pinref part="U1" gate="G$1" pin="VCC"/>
 <pinref part="C5" gate="G$1" pin="+"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <pinref part="U$3" gate="G$1" pin="5V"/>
@@ -1532,6 +1524,17 @@ Datasheet</description>
 <pinref part="USB1" gate="G$1" pin="DM"/>
 <wire x1="53.34" y1="127" x2="53.34" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="124.46" x2="41.91" y2="124.46" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<wire x1="93.98" y1="119.38" x2="93.98" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="VCC"/>
+<wire x1="109.22" y1="119.38" x2="93.98" y2="119.38" width="0.1524" layer="91"/>
+<junction x="93.98" y="119.38"/>
+<pinref part="U1" gate="G$1" pin="VCCIO"/>
+<wire x1="109.22" y1="114.3" x2="93.98" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="114.3" x2="93.98" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
