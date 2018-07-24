@@ -176,7 +176,7 @@
 <wire x1="22.86" y1="17.272" x2="22.86" y2="0" width="0.2032" layer="20"/>
 <wire x1="22.86" y1="0" x2="-5.08" y2="0" width="0.2032" layer="20"/>
 <wire x1="-5.08" y1="0" x2="-5.08" y2="17.272" width="0.2032" layer="20"/>
-<text x="-0.741" y="0.789" size="1.016" layer="21" font="vector" ratio="15">232X FTDI Basic</text>
+<text x="-0.741" y="0.789" size="1.016" layer="21" font="vector" ratio="15">232RL FTDI Basic</text>
 <text x="20.32" y="13.843" size="1.016" layer="21" font="vector" ratio="15">RX</text>
 <text x="20.193" y="2.667" size="1.016" layer="21" font="vector" ratio="15">TX</text>
 <text x="21.59" y="-11.43" size="1.778" layer="48" font="vector" ratio="15">P. Dokter, T. Klopfenstein</text>

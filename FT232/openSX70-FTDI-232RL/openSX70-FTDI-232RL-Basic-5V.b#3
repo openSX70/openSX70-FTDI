@@ -758,7 +758,6 @@ design rules under a new name.</description>
 <via x="17.653" y="3.302" extent="1-16" drill="0.35"/>
 <via x="15.875" y="16.129" extent="1-16" drill="0.35"/>
 <wire x1="9.895" y1="12.292" x2="9.895" y2="13.18" width="0.254" layer="1"/>
-<wire x1="9.895" y1="13.18" x2="10.0838" y2="13.3688" width="0.254" layer="1"/>
 <wire x1="14.478" y1="14.859" x2="15.875" y2="16.129" width="0.254" layer="1"/>
 </signal>
 <signal name="USB_D+">

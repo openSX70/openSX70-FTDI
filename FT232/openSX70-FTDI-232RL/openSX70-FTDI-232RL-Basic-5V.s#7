@@ -6138,7 +6138,6 @@ Created by Yingchun,shan&lt;br&gt;
 <part name="GND2" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+1" library="SparkFun" deviceset="VCC" device="" value="3.3V"/>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
-<part name="U$2" library="SparkFun" deviceset="LOGO-SFE" device="NW2"/>
 <part name="U1" library="SparkFun" deviceset="FT232RL" device="SSOP"/>
 <part name="GND7" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND8" library="SparkFun" deviceset="GND" device=""/>
@@ -6150,9 +6149,7 @@ Created by Yingchun,shan&lt;br&gt;
 <part name="U$4" library="SparkFun" deviceset="5V" device=""/>
 <part name="JP2" library="SparkFun" deviceset="LOGO-SFE" device="SK"/>
 <part name="JP3" library="SparkFun" deviceset="FIDUCIAL" device="1X2"/>
-<part name="JP4" library="SparkFun" deviceset="FIDUCIAL" device="1X2"/>
 <part name="JP5" library="SparkFun" deviceset="FIDUCIAL" device="1X2"/>
-<part name="JP6" library="SparkFun" deviceset="FIDUCIAL" device="1X2"/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
 <part name="USB1" library="Seeed-Connector -2016" deviceset="MICRO-USB-SMD-B-(10118193-0001LF)" device="" value="10118193-0001LF"/>
 <part name="GND3" library="SparkFun" deviceset="GND" device=""/>
@@ -6177,7 +6174,6 @@ Created by Yingchun,shan&lt;br&gt;
 <instance part="P+1" gate="1" x="86.36" y="132.08"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="147.32" y="0"/>
-<instance part="U$2" gate="G$1" x="241.3" y="17.78"/>
 <instance part="U1" gate="G$1" x="124.46" y="109.22"/>
 <instance part="GND7" gate="1" x="66.04" y="101.6"/>
 <instance part="GND8" gate="1" x="76.2" y="101.6"/>
@@ -6189,9 +6185,7 @@ Created by Yingchun,shan&lt;br&gt;
 <instance part="U$4" gate="G$1" x="165.1" y="127"/>
 <instance part="JP2" gate="G$1" x="231.14" y="17.78"/>
 <instance part="JP3" gate="G$1" x="238.76" y="27.94"/>
-<instance part="JP4" gate="G$1" x="243.84" y="27.94"/>
 <instance part="JP5" gate="G$1" x="238.76" y="33.02"/>
-<instance part="JP6" gate="G$1" x="243.84" y="33.02"/>
 <instance part="LOGO1" gate="G$1" x="134.62" y="10.16"/>
 <instance part="USB1" gate="G$1" x="27.94" y="121.92"/>
 <instance part="GND3" gate="1" x="58.42" y="106.68" rot="R90"/>
