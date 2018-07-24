@@ -1,0 +1,14 @@
+"Part";"Value";"Device";"Package";"Description";"AVAILABILITY";"DESCRIPTION";"MF";"MP";"MPN";"PACKAGE";"PRICE";"PROD_ID";"SF_SKU";"VALUE";
+"C2";"100nf";"CERAMIC-100NF-50V-10%-X7R(0603)";"C0603";"302010138";"";"";"";"";"CC0603KRX7R9BB104";"";"";"";"";"100nf";
+"C5";"10uf";"TANTALUM-SMD-10UF-16V-10%(AVX-A)";"AVX-A";"302020002";"";"";"";"";"TAJA106K016RNJ";"";"";"";"";"10uf";
+"D1";"GREEN-0603";"SMD-LED-CLEAR-GREEN(0603)";"LED-0603";"304090043";"";"";"";"";"19-217-G7C-AN1P2-3T";"";"";"";"";"GREEN-0603";
+"D2";"YELLOW-0603";"SMD-LED-CLEAR-YELLOW(0603)";"LED-0603";"304090044";"";"";"";"";"19-217-Y5C-AM1N1VY-3T";"";"";"";"";"YELLOW-0603";
+"FRAME1";"FRAME-LETTER";"FRAME-LETTER";"CREATIVE_COMMONS";"Schematic Frame";"";"";"";"";"";"";"";"";"";"";
+"J1";"687106183722";"687106183722";"687106183722";"687106183722";"Good";"CONN FFC BTM 6POS 0.5MM SMD R/A";"Wurth Electronics";"687106183722";"";"None";"1.21 USD";"";"";"";
+"JP3";"FIDUCIAL1X2";"FIDUCIAL1X2";"FIDUCIAL-1X2";"Fiducial Alignment Points";"";"";"";"";"";"";"";"";"";"";
+"JP5";"FIDUCIAL1X2";"FIDUCIAL1X2";"FIDUCIAL-1X2";"Fiducial Alignment Points";"";"";"";"";"";"";"";"";"";"";
+"R1";"1K";"SMD-RES-1K-1%-1/10W(0603)";"R0603";"301010298";"";"";"";"";"RC0603FR-071KL";"";"";"";"";"1K";
+"R2";"1K";"SMD-RES-1K-1%-1/10W(0603)";"R0603";"301010298";"";"";"";"";"RC0603FR-071KL";"";"";"";"";"1K";
+"S1";"";"SWITCH-SPDT-SMD-RIGHT-ANGLE";"SWITCH_SPST_SMD_A";"Single Pole, Double Throw (SPDT) Switch";"";"";"";"";"";"";"";"SWCH-10651";"COM-10860";"";
+"U1";"FT232RLSSOP";"FT232RLSSOP";"SSOP28DB";"USB UART";"";"";"";"";"";"";"";"";"";"";
+"USB1";"10118193-0001LF";"MICRO-USB-SMD-B-(10118193-0001LF)";"MICRO-USB5+6P-SMD-0.65-B";"320010003";"";"";"";"";"10118193-0001LF";"";"";"";"";"10118193-0001LF";
